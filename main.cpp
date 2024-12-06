@@ -38,12 +38,12 @@ for (int i=0;i<n;i++)
         if(u>maxx)
         {
             maxx=u;
-            //maxxi=i;
+            maxxi=i;
         }
 
     }
     }
-std::cout<<maxx<<"   "<<sum<<std::endl;
+std::cout<<maxx<<"   "<<maxxi<< "   "<<sum<<std::endl;
 
 
 
